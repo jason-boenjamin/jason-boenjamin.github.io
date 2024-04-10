@@ -3,12 +3,11 @@
 ## Table of Contents
 
 - [Jason A. Boenjamin](#jason-a-boenjamin)
-  - [Table of Contents](#table-of-contents)
-  - [About Me](#about-me)
-  - [Other interests](#other-interests)
-  - [List of Classes I have taken](#list-of-classes-i-have-taken)
-    - [From favorite to least-favorite](#from-favorite-to-least-favorite)
-  - [Things I Have Yet To Do](#things-i-have-yet-to-do)
+- [About Me](#about-me)
+- [Other interests](#other-interests)
+- [List of Classes I have taken](#list-of-classes-i-have-taken)
+  - [From favorite to least-favorite](#from-favorite-to-least-favorite)
+- [Things I Have Yet To Do](#things-i-have-yet-to-do)
 
 ## About Me
 
@@ -24,7 +23,7 @@ Attached *below* is an image about the business.
 
 On the topic of sneakers, my favorite quote comes from the Great Kobe Bryant > Leave the game better than you found it. And when it comes time for you to leave, leave a legend."
 
-This quote is my idealogy for the way I want to live my life. I want to leave a legacy to those around me. Whether it be a simple interaction with me or a group project. I want to have a positive impact on every person I come across. 
+This quote is my idealogy for the way I want to live my life. I want to leave a legacy to those around me. Whether it be a simple interaction with me. I want to have a positive impact on every person I come across. 
 
 Speaking of quotes, my favorite line of *code* is `cout << "Hello World\n";`
 
