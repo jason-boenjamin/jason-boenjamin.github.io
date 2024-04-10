@@ -1,5 +1,5 @@
 # Jason A. Boenjamin
-
+![Jason Boenjamin](./Screenshots.Jason_Boenjamin)
 ## Table of Contents
 
 - [Jason A. Boenjamin](#jason-a-boenjamin)
@@ -20,7 +20,7 @@ Also, I run a sneaker business on Instagram, with the handle @626sneaks.
 
 Attached *below* is an image about the business. 
 
-![626sneaksImage](31.jpg)
+![626sneaksImage](./Screenshots/626sneaks.jpg)
 
 On the topic of sneakers, my favorite quote comes from the Great Kobe Bryant > Leave the game better than you found it. And when it comes time for you to leave, leave a legend."
 
