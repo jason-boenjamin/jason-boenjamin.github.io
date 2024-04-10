@@ -1,5 +1,5 @@
 # Jason A. Boenjamin
-![Jason Boenjamin](./Screenshots.Jason_Boenjamin)
+![Jason Boenjamin](./Screenshots/Jason_Boenjamin.jpg)
 ## Table of Contents
 
 - [Jason A. Boenjamin](#jason-a-boenjamin)
