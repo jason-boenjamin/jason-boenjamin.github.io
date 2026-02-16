@@ -1,0 +1,138 @@
+:root {
+  --bg: #0b0f17;
+  --card: rgba(16, 24, 40, 0.65);
+  --line: rgba(255, 255, 255, 0.10);
+  --text: #e6eaf2;
+  --muted: #9aa6bd;
+  --accent: #7aa7ff;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: radial-gradient(1200px 800px at 80% 10%, rgba(122,167,255,0.22), transparent),
+              radial-gradient(900px 700px at 10% 90%, rgba(120,255,214,0.16), transparent),
+              var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.page {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 32px 18px 56px;
+}
+
+.card {
+  border: 1px solid var(--line);
+  background: var(--card);
+  border-radius: 18px;
+  backdrop-filter: blur(10px);
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1.4fr 0.6fr;
+  gap: 22px;
+  align-items: center;
+  padding: 22px;
+}
+
+.kicker {
+  margin: 0 0 6px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+h1 {
+  margin: 0 0 10px;
+  font-size: 40px;
+  letter-spacing: -0.02em;
+}
+
+.summary {
+  margin: 0 0 14px;
+  color: #cdd6e6;
+  line-height: 1.45;
+}
+
+.row { display: flex; gap: 10px; flex-wrap: wrap; }
+
+.btn {
+  display: inline-block;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: rgba(255,255,255,0.04);
+  color: var(--text);
+}
+
+.btn:hover { border-color: rgba(122,167,255,0.45); }
+
+.headshot {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 30% 30%;
+  border: 1px solid var(--line);
+}
+
+.section { margin-top: 18px; }
+.section h2 {
+  margin: 0 0 10px;
+  font-size: 18px;
+  color: #cdd6e6;
+}
+
+.accordion { overflow: hidden; }
+
+.item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 14px 16px;
+  background: transparent;
+  color: var(--text);
+  border: 0;
+  border-top: 1px solid var(--line);
+  text-align: left;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.item:first-child { border-top: 0; }
+
+.muted { color: var(--muted); font-size: 13px; }
+
+.panel {
+  padding: 14px 16px 18px;
+  border-top: 1px solid var(--line);
+  color: #cdd6e6;
+}
+
+.panel ul { margin: 0; padding-left: 18px; }
+.panel .links { margin-top: 10px; display: flex; gap: 14px; flex-wrap: wrap; }
+
+.footer { margin-top: 22px; text-align: center; color: var(--muted); }
+
+/* NEW: hover affordance so interviewers know it's clickable */
+.item:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(122, 167, 255, 0.35);
+}
+
+.item:hover .muted {
+  color: #cdd6e6;
+}
+
+@media (max-width: 760px) {
+  .hero { grid-template-columns: 1fr; }
+  .headshot { width: 140px; height: 140px; }
+}
